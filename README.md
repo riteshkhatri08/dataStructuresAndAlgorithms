@@ -1,5 +1,5 @@
 # dataStructures
-Java implementation of commonly used Data Structures
+Java implementation of commonly used Data Structures and Algorithms
 
 
 Datastructures in this repo 
