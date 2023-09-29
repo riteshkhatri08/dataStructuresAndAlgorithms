@@ -1,4 +1,4 @@
-package com.ritesh.practice.sorting;
+package com.ritesh.algorithms.searching;
 
 public class BinarySearch {
     static int[] array = { 1, 2, 4, 5, 23, 44, 67, 68, 69, 69, 99, 102, 122 };

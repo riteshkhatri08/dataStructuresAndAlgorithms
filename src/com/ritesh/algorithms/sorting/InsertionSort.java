@@ -1,4 +1,4 @@
-package com.ritesh.practice.sorting;
+package com.ritesh.algorithms.sorting;
 
 import java.util.Scanner;
 
