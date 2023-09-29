@@ -1,4 +1,4 @@
-package Lists;
+package com.ritesh.datastructures.list;
 
 public class DoubleLinkedList {
     DllNode head;

@@ -1,4 +1,4 @@
-package Trees;
+package com.ritesh.datastructures.tree;
 
 public class Recursion {
     public static void main(String[] args) {

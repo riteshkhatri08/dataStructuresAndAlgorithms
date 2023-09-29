@@ -1,4 +1,4 @@
-package Hashtables;
+package com.ritesh.datastructures.hashing;
 
 public class HashTable {
     int size;

@@ -1,4 +1,4 @@
-package Lists;
+package com.ritesh.datastructures.list;
 
 import java.util.*;
 

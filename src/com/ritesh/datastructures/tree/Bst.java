@@ -1,4 +1,4 @@
-package Trees;
+package com.ritesh.datastructures.tree;
 
 import java.util.ArrayList;
 import java.util.stream.Stream;
