@@ -116,26 +116,25 @@ public class BinaryTree {
     private TreeNode constructNewTree(int[] preorder, int[] inorder) {
 
         HashMap<Integer, Integer> inordermap = new HashMap<Integer, Integer>();
-        ArrayList<Integer> preorderList =  new ArrayList<Integer>();
+        ArrayList<Integer> preorderList = new ArrayList<Integer>();
         for (int index = inorder.length - 1; index >= 0; index--) {
             inordermap.put(inorder[index], index);
             preorderList.add(preorder[index]);
 
         }
-        
-       
 
         return constructNewTreeHelper(0, preorder.length, inordermap, preorderList);
     }
 
     private TreeNode constructNewTreeHelper(int left, int right, HashMap<Integer, Integer> inordermap,
-    ArrayList<Integer> preorderList) {
-                // System.out.println(left + " " + right + " " + preordercount + " " + preorder[preordercount])  ;
+            ArrayList<Integer> preorderList) {
+        // System.out.println(left + " " + right + " " + preordercount + " " +
+        // preorder[preordercount]) ;
         if (left >= right) {
             return null;
         }
 
-        TreeNode newNode = new TreeNode(preorderList.remove(preorderList.size()-1));
+        TreeNode newNode = new TreeNode(preorderList.remove(preorderList.size() - 1));
         int middle = inordermap.get(newNode.val);
         // preordercount++;
         newNode.left = constructNewTreeHelper(left, middle, inordermap, preorderList);
